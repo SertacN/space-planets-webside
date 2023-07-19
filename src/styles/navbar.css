@@ -12,6 +12,7 @@
 
 .navImg {
   height: 70px;
+  cursor: pointer;
 }
 .navLink a {
   margin: 10px;
