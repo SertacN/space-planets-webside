@@ -1,0 +1,15 @@
+.mainPlanet {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.planetContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 70vw;
+  height: auto;
+  place-items: center;
+}
