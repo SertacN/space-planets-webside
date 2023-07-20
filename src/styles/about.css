@@ -1,0 +1,12 @@
+.aboutDiv {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.aboutDiv h1 {
+  margin-bottom: 100px;
+}
