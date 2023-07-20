@@ -1,11 +1,16 @@
+import "../styles/planets.css";
+
 // eslint-disable-next-line react/prop-types
 function PlanetItem({ title, content, image, size }) {
   return (
-    <div>
+    <div className="planetItem">
       <img src={image} alt="planet" />
       <h3>{title}</h3>
       <h5>{content}</h5>
-      <p>{size}</p>
+      <i>
+        {" "}
+        <p>Size: {size}</p>
+      </i>
     </div>
   );
 }

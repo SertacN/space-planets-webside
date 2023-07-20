@@ -8,8 +8,26 @@
 .planetContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 20px;
   width: 70vw;
   height: auto;
   place-items: center;
+  margin: 15px 0;
+}
+.planetItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.planetItem img {
+  height: 150px;
+  margin-bottom: 15px;
+}
+.planetItem h5 {
+  text-align: center;
+  margin: 15px 0;
 }
